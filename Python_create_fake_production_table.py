@@ -93,7 +93,7 @@ print()
 print(sampleDf)
 print()
 
-outfile = r"\\hotce15\p\l48esri\per\working\c_habrock\AICOE\FLARE_POC\fake prod table.csv"
+outfile = r"\\<YOUR FILE PATH GOES HERE>\fake prod table.csv"
 sampleDf.to_csv(outfile, index=False)
 print()
 print(f"DONE, saved to: \n {outfile}")
